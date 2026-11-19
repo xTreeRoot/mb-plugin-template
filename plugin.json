@@ -1,0 +1,11 @@
+{
+  "id": "mb-plugin-template",
+  "name": "MB 插件模板（试听示例）",
+  "version": "0.1.0",
+  "main": "index.js",
+  "playback": "stream",
+  "permissions": {
+    "network": ["raw.githubusercontent.com"]
+  },
+  "navigation": [{ "builtin": "home" }]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "mb-plugin-template",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "package": "npm test && mkdir -p dist && rm -f dist/mb-plugin.zip && zip -j dist/mb-plugin.zip plugin.json index.js"
+  }
+}
